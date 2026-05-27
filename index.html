@@ -138,7 +138,7 @@ footer span{color:var(--yellow);}
           <span class="ei">😴</span>ESQUECER
         </button>
         <button class="opt" onclick="mcq(this,false)">
-          <span class="ei">🤫</span>ESCONDER
+          <span class="ei">🫣</span>ESCONDER
         </button>
       </div>
       <div class="alert" id="al1"><span class="ai"></span><span class="at"></span></div>
@@ -189,18 +189,18 @@ const TOTAL_PAIRS=5;
 
 // ── DADOS DOS PARES ──
 const ALL_PAIRS=[
-  {id:0,lEmoji:'🎂',lLabel:'FESTA',      rEmoji:'📷',rLabel:'ÁLBUM DE FOTOS'},
-  {id:1,lEmoji:'✏️',lLabel:'RECADO',     rEmoji:'📓',rLabel:'AGENDA'},
-  {id:2,lEmoji:'🖼️',lLabel:'DESENHO',   rEmoji:'💻',rLabel:'COMPUTADOR'},
-  {id:3,lEmoji:'🎵',lLabel:'MÚSICA',     rEmoji:'📻',rLabel:'RÁDIO'},
-  {id:4,lEmoji:'📖',lLabel:'HISTÓRIA',   rEmoji:'📚',rLabel:'LIVRO'},
+  {id:0,lEmoji:'🥳',lLabel:'FESTA',      rEmoji:'📷',rLabel:'ÁLBUM DE FOTOS'},
+  {id:1,lEmoji:'✍️',lLabel:'RECADO',     rEmoji:'🗒️',rLabel:'AGENDA'},
+  {id:2,lEmoji:'🖼️',lLabel:'DESENHO',    rEmoji:'💻',rLabel:'COMPUTADOR'},
+  {id:3,lEmoji:'🎼',lLabel:'MÚSICA',     rEmoji:'💿',rLabel:'CD'},
+  {id:4,lEmoji:'📄​',lLabel:'HISTÓRIA',   rEmoji:'📚',rLabel:'LIVRO'},
 ];
 const MATCH_MSG=[
-  'ÓTIMO! A FESTA FICA NO ÁLBUM DE FOTOS! 📷',
-  'ISSO! O RECADO FICA NA AGENDA! 📓',
-  'MANDOU BEM! O DESENHO FICA NO COMPUTADOR! 💻',
-  'PERFEITO! A MÚSICA FICA NO RÁDIO! 📻',
-  'MUITO BEM! A HISTÓRIA FICA NO LIVRO! 📚',
+  'ÓTIMO! A FESTA FICA NO ÁLBUM DE FOTOS!',
+  'ISSO! O RECADO FICA NA AGENDA!',
+  'MANDOU BEM! O DESENHO FICA NO COMPUTADOR!',
+  'PERFEITO! A MÚSICA FICA NO CD!',
+  'MUITO BEM! A HISTÓRIA FICA NO LIVRO!',
 ];
 
 function shuffle(a){return [...a].sort(()=>Math.random()-.5);}
